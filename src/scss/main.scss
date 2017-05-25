@@ -81,12 +81,12 @@ ul {
 	margin-left: 10%;
 	margin-top: 3%;
 	line-height: 30px;
-	opacity: 0;
-	transition: .3;
+	// opacity: 0;
+	// // transition: .3;
 
-	&.show {
-		opacity: 1;
-	}
+	// &.show {
+	// 	opacity: 1;
+	// }
 
 	& p {
 		max-width: 400px;
@@ -94,6 +94,16 @@ ul {
 
 	.counter {
 		font-size: 4em;
+	}
+}
+
+.report {
+	padding: 3% 10%;
+	line-height: 30px;
+	background: #FFE14F;
+
+	.report__img {
+		font-size: 6em;
 	}
 }
 

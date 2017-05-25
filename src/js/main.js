@@ -1,16 +1,12 @@
 $(function () {
+
 	$(".parallax-img").parallax(
 		{imageSrc: "assets/img/hackathon.jpg"});
 });
 
-	$(".facts").waypoint(function () {
-		$(".facts").addClass("show");
-	}, {
-		offset: '50%'
-	})
 
 
-$('.counter').each(function() {
+$(".counter").each(function() {
   var $this = $(this),
       countTo = $this.attr('data-count');
   
@@ -19,7 +15,6 @@ $('.counter').each(function() {
   },
 
   {
-
     duration: 2000,
     easing:'linear',
     step: function() {
